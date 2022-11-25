@@ -1,0 +1,27 @@
+p {
+    background-color: cadetblue;
+}
+
+.contentBox {
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+    
+    padding: 40px;
+    margin: 20px;
+
+}
+
+.headlineWrapper {
+    margin-bottom: 200px;
+
+}
+
+.contentWrapper{
+    margin:auto;
+    width: 100%;
+    max-width: 600px;
+    background-color: hotpink;
+
+
+}
