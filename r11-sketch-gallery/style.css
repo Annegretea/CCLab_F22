@@ -1,0 +1,24 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    background-color:rgb(255, 168, 168);
+}
+
+p{
+background-color:rgb(67, 165, 4);
+color:rgb(255, 12, 0);
+margin: 50px;
+padding: 50px;
+text-align:center;
+
+}
+
+
+canvas{
+    display:block
+}
+
+.canvasDiv{
+    /* style canvas container here */
+    
+}
