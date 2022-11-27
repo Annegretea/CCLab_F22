@@ -9,12 +9,40 @@
     <script src="libary/p5.js"></script>
 </head>
 <body>
-    <p>Anne-Grete's Virus Simulator</p>
+    <div></div>
+    <p class="headline">Anne-Grete's Virus Simulator</p>
 
-    <!-- this container div will hold the p5 canvas -->
+<div class="intro"> 
+<div class="intro1">The Big white circle represents the virus that's infecting the cells</div>
+<div class="intro2">The pattern of circles represent the cell pattern</div>
+</div>
+
+    <div class="instructions_legend">
+        <div class="instructions"> 
+         <p>INTRODUCTION:</p>
+         <ol>
+         <li> press "play" and see how the virus cell will start spreading the infection around</li> 
+         <li> click on the healthy cells to create immune cells to protect as many cells as possible</li> 
+         <li> see the visual (not medically accurate) representation of a virus spreading inside us</li> 
+        </div>
+        </ol>
+        <div class="legend"> 
+        <p>LEGEND:</p>
+        <ul>
+        <li><span style="color:rgb(241, 58, 162)">pink cells =</span> healthy (aka normal), not immune or infected cells</li> 
+        <li><span style="color:rgb(0, 120, 255)">blue cells =</span> immune cells (click on a cell to activate) - they can not get infected by the virus, nor can spread it</li> 
+        <li><span style="color:rgb(255, 12, 0)">red cells =</span> cells that have been infected via a physical contact with the virus</li> 
+        <li><span style="color:rgb(255, 101, 52)">orange cells =</span> cells that have been infected by a virus-contacted infected neighbouring cell (chances of happening: 70%)</li> 
+        <li><span style="color:rgb(255, 192, 35)">yellow cells =</span> cells that have been infected by an infected secondary contact cell (chances of happening: 40%)</li>
+        <li><span style="color:rgb(67, 165, 4)">green cells =</span> newly recovered cells that have healed from the infection after a certain time has passed from the initial infection</li>      
+        </ul>
+        </div>
+    </div>
+
     <div class="canvasDiv" id="canvasContainer"></div>
 
-    <p>Above is my sketch 个</p>
+    <div></div>
+    <p class="endline">Above is my sketch 个</p>
 
     
     <script src="script.js"></script>

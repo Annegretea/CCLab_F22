@@ -4,21 +4,73 @@ html, body{
     background-color:rgb(255, 168, 168);
 }
 
-p{
+.headline{
+color:rgb(0, 120, 255);
+font-size: 30px;
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+text-align: center;
 background-color:rgb(67, 165, 4);
-color:rgb(255, 12, 0);
-margin: 50px;
-padding: 50px;
-text-align:center;
+
+}
+
+/* p{
+background-color:rgb(67, 165, 4);
+} */
+
+.intro{
+    font-size: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    text-align: center;
+    margin: 50px;
+    color: rgb(255, 101, 52);
+
+}
+
+.instructions_legend{
+    display: flex;
+    
+    
+
+
+}
+
+.instructions{
+    flex: 50%;
+    margin-left: 300px;
+    
+    color: rgb(0, 120, 255);
+
+}
+
+.legend{
+    flex: 50%;
+   margin-left: 100px;
+   margin-right: 300px;
+   margin-bottom: 50px;
+   color: white;
+
 
 }
 
 
+.endline{
+    color:rgb(255, 12, 0);
+    margin: 50px;
+    padding: 50px;
+    text-align:center;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-variant:small-caps;
+}
+
 canvas{
     display:block
+    
 }
 
 .canvasDiv{
     /* style canvas container here */
-    
+    /* align-items: center; */
+    display: flex;
+    justify-content: center;
 }
