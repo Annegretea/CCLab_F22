@@ -18,7 +18,7 @@
     g.p5 = f()
   }
 }) (function () {
-  var define,
+var define,
   module,
   exports;
   return (function () {

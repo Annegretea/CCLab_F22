@@ -33,7 +33,6 @@ let tool;
 let currentR = 0,
   currentG = 0,
   currentB = 0;
-
 let img;
 let imageArray = [];
 let numImg = 5
