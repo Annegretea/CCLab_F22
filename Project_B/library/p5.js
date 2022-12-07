@@ -33,7 +33,7 @@ var define,
             throw a.code = 'MODULE_NOT_FOUND',
             a
           }
-          var p = n[i] = {
+           var p = n[i] = {
             exports: {
             }
           };

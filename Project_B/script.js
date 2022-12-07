@@ -20,4 +20,3 @@ function getRandomImage() {
        
     return document.getElementById("picture").innerHTML = '<img class="backgroundImage" src="'+randomImage[number]+'" />';  
     }  
-    

@@ -1,0 +1,15 @@
+img{ 
+
+width: 750px;
+
+} 
+
+.caption{
+font-size: 30px;
+} 
+
+.captionBox{
+border: black dotted 2px;
+padding: 5px;
+display: inline-block;
+}  

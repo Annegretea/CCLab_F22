@@ -26,7 +26,6 @@ let colors = [
   [255, 102, 217],
   [255, 102, 179],
 ];
-
 let numColorCircles = 23;
 let spacing = 35;
 let tool;
