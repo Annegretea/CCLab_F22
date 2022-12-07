@@ -1,0 +1,64 @@
+/* 
+{}
+*/
+
+.backgroundImage{
+    width: 100%;
+}
+
+.introduction{
+color: white;
+text-align: center;
+
+}
+
+/* #canvasContainer {
+    width: 100%;
+    text-align:center;
+}
+
+canvas {
+    display: inline;
+}
+
+header {
+    margin: 20px 0px;
+    text-align: center;
+}
+
+#mainContainer {
+    margin: 0px auto;
+    text-align: center;
+}
+
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 20px;
+}
+
+.blue-btn {background-color: #008CBA;}
+.red-btn {background-color: #f44336;}
+
+.gallery {
+    width: 80%;
+    margin: 0px auto;
+}
+.gallery li {
+    display: inline-block;
+    list-style: none;
+    width: 250px;
+    min-height: 100px;
+    margin: 0px 10px 20px 0;
+    text-align: center;
+}
+.gallery img {
+    width: 250px;
+    height: 200px;
+} */
