@@ -1,0 +1,26 @@
+<html>
+<head>
+<title> Drawy </title>
+<link rel="stylesheet" href="style.css">
+
+    <script src="library/p5.js"></script>
+    <script src="images.js"></script>
+
+</head>
+<body>
+<header>
+    <h4> Click the button to generate and display random images on the webpage </h4>
+    
+    <button class="galleryButton" onclick = "showGallery();"> See Gallery </button>
+    <button class="newButton" onclick = "window.location.reload()"> New Image </button>
+</header>
+<div class="gallery" id="galleryContainer"></div>
+<div id="mainContainer">
+    <div class="canvasDiv" id="canvasContainer"></div>
+    <button class="saveButton" onclick = "saveImg();" onmouseover="clearToolbar();"> Save </button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,78 @@
+#canvasContainer {
+    width: 100%;
+    text-align:center;
+    margin: 0px;
+}
+
+canvas {
+
+    display: inline;
+
+
+}
+
+header {
+    margin: 20px 0px;
+    text-align: center;
+    font-size: 25px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+#mainContainer {
+    /* margin-right: 100px; */
+    text-align: center;
+
+}
+
+
+.galleryButton {
+    padding: 15px 32px;
+    width: 49%;
+    text-align: center;
+    display: inline-block;
+    font-family:monospace;
+    color:blue;
+    font-size: 30px;
+    margin: -1px;
+    background-color: white;
+}
+
+.newButton {
+    padding: 15px 32px;
+    width: 49%;
+    text-align: center;
+    display: inline-block;
+    font-family: monospace;
+    color: violet;
+    font-size: 30px;
+    margin: -1px;
+    background-color: white;
+}
+
+.saveButton {
+    padding: 15px 32px;
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+    font-family: monospace;
+    color: green;
+    font-size: 30px;
+    margin: -1px;
+}
+
+.gallery {
+    width: 80%;
+    margin: 0px auto;
+}
+.gallery li {
+    display: inline-block;
+    list-style: none;
+    width: 250px;
+    min-height: 100px;
+    margin: 0px 10px 20px 0px;
+    text-align: center;
+}
+.gallery img {
+    width: 250px;
+    height: 200px;
+}
