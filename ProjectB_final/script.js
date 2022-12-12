@@ -39,7 +39,7 @@ let colors = [
 ];
 
 let numColorCircles = 23;
-let spacing = 45;
+let spacing = 40;
 let tool;
 let currentR = 0,
     currentG = 0,
@@ -106,7 +106,7 @@ class ColorCircle {
     constructor(startY, colorIndex) {
         this.x = 37;
         this.y = 45 + startY;
-        this.dia = 40;
+        this.dia = 35;
         this.r = colors[colorIndex][0];
         this.g = colors[colorIndex][1];
         this.b = colors[colorIndex][2];
